@@ -1,0 +1,44 @@
+.card-pruduct{
+text-align: center;
+max-width: 500px;
+margin: 0px auto;
+box-shadow: 0px 0px 15px  0px #5401ef;
+border-radius: 10px;
+padding: 20px;
+transition-duration: 1s;
+transition-delay: 0.3s;
+}
+.card-pruduct .card-pruduct-text{
+    display: none;
+    font-family: iran;
+}
+.card-pruduct .card-pruduct-img{
+   
+    font-family: cursive;
+}
+.card-pruduct:hover {
+   color: deepskyblue; 
+   transform: rotateY(180deg);
+   opacity: 50%;
+}
+.card-pruduct:hover .card-pruduct-text {
+   
+    display: block;
+    transform: rotateY(180deg);
+ }
+ .card-pruduct:hover .card-pruduct-img {
+   
+    display: none;
+ }
+.card-pruduct img{
+    
+    width: 370px;
+    height: 200px;
+  
+}
+
+.card-pruduct pre{
+    text-align:left;
+font-size: 15px;
+}
+
